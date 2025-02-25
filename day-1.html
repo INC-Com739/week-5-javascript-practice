@@ -76,8 +76,74 @@
   <h2>Try it!</h2>
   <p>Now you try it!</p>
   <p>Make at least 5 more examples of templates yourself.</p>
+  <h2>Example 3</h2>
+  <p>
+    <script>
+      let name;
+      let age;
+      let city;
+      let country;
+      let job;
 
+      name = "Sam";
+      age = 25;
+      city = "New York";
+      country = "USA";
+      job = "Software Developer";
 
+      document.write(`Hi, my name is ${name}. I am ${age} years old. I live in ${city}, ${country}. I work as a ${job}.`)
+    </script>
+  </p>
+  <h2>Example 4</h2>
+  <script>
+     {
+      let a;
+      let b;
+      let c;
+
+      a = 12;
+      b = 3;
+      c = a + b;
+      document.write(`${a} plus ${b} is equal to ${c}.`)
+    }
+
+  </script>
+  <h2>Example 5</h2>
+  <script>
+    let callhistory;
+    let calltime;
+    let calltype;
+    let callcost;
+
+    callhistory = "incoming";
+    calltime = "morning";
+    calltype = "local";
+    callcost = 1.25;
+
+    document.write(`You have an ${callhistory} call in the ${calltime}. It was a ${calltype} call and it cost you ${callcost} dollars.`)
+  </script>
+  <h2>Example 6</h2>
+<script>
+  const str = 'Hello';
+  const str2 = 'World';
+  const str3 = '!';
+  document.write(`${str} ${str2} ${str3}`);
+</script>
+<h2>Example 7</h2>
+<p> look in Developer tools to find the code</p>
+<script>
+  console.log(`The sum of 2 and 3 is ${2 + 3}`);
+  // expected output: "The sum of 2 and 3 is 5"
+</script>
+<h2>Example 8</h2>
+<p> look in Developer tools to find the code</p>
+<script>
+  let message = `The time is ${new Date().getHours()}:${new Date().getMinutes()}`;
+  console.log(message);
+  // expected output: "The time is 15:30"
+  console.log(`The time is ${new Date().getHours()}:${new Date().getMinutes()}`);
+  // expected output: "The time is 15:30"
+</script>
 </body>
 
 </html>
